@@ -5,5 +5,3 @@ print("test")
 # shift + F12 shows you where a function is used.
 
 print("hello")
-
-
