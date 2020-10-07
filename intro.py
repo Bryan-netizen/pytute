@@ -15,3 +15,13 @@ print('You will be ' + str(int(myAge) + 1) + ' in a year.')
 
 
 print("test this")
+
+
+42 == 42
+42 == " hello "
+
+# integers and string will never equal to each other
+
+myAge = 24
+myPet = 'cat'
+myAge > 20 and myPet == 'cat'
