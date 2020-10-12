@@ -19,7 +19,7 @@ print(list_2)
 
 tuple_1 = ('History', 'Math', 'Physics', 'CompSci')
 
-tuple_2=tuple_1
+tuple_2 = tuple_1
 
 print(tuple_1)
 print(tuple_2)
@@ -31,25 +31,27 @@ art_courses = {'History', 'Math', "Art", "Design"}
 
 print(cs_courses)
 
-print(cs_courses.intersection(art_courses)) # This returns the itens similar in 2 lists
+# This returns the itens similar in 2 lists
+print(cs_courses.intersection(art_courses))
 
-print(cs_courses.difference(art_courses)) # This returns the courses that are not in art_courses
+# This returns the courses that are not in art_courses
+print(cs_courses.difference(art_courses))
 
-print(cs_courses.union(art_courses)) #This returns both courses
+print(cs_courses.union(art_courses))  # This returns both courses
 
 
 # Empty Lists
 
 empty_List = []
-empty_List =  list()
+empty_List = list()
 
-#Empty Tuples
+# Empty Tuples
 
 empty_tuple = ()
 empty_tuple = tuple()
 
-#Empty Sets
+# Empty Sets
 
-empty_set= {} # This isn't right! it's a dict
+empty_set = {} 	# This isn't right! it's a dict
 
 empty_set = set()

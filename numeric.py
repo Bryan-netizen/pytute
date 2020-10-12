@@ -15,6 +15,6 @@ num = 1
 
 num = num + 1
 
-num +=1
+num += 1
 
-print(round(3.75, 1))
+print(round(3.75, 1)) 
