@@ -31,3 +31,5 @@ import os
 #print(os.__file_)
 
 import antigravity
+
+import numpy
