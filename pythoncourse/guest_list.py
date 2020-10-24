@@ -55,3 +55,6 @@ del guest_list[0]
 del guest_list[0]
 
 print(guest_list)
+
+
+print(len(guest_list))
