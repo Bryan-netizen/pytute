@@ -36,3 +36,6 @@ print(motorcycles)
 print(motorcycles)
 
 print("\nA " + too_expensive.title() + " is too expensive for me.")
+
+
+print(motorcycles[-1])
