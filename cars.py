@@ -28,3 +28,42 @@ print(cars)
 
 print(len(cars))
 
+
+
+for car in cars:
+	if car == 'bmw':
+		print(car.upper())
+	else:
+		print(car.title())
+
+
+car = 'subaru'
+print("Is car == 'subaru'? I predict True.")
+print(car == 'subaru')
+
+print("\nIs car == 'audi'? I predict False.")
+print(car == 'audi')
+
+print("Is car =='subaru'?I predict False")
+print(car == 'subaru'.title())
+
+
+print("is car == 'subaru'? I predict False")
+print(car == 'subaru'.upper())
+
+car_len = len('subaru')
+
+print(car_len)
+
+print("Is car_len > 7? I predict False")
+print(len(car) > car_len)
+
+print("Is car_len == 6? I predict True")
+print(len(car) >= car_len)
+
+print("Is car_len != 6? I predict False")
+print(len(car) != car_len)
+
+print('subaru' in cars)
+
+print('subaru'.title() in cars)
