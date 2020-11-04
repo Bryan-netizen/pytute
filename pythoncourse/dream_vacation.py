@@ -16,3 +16,6 @@ while polling_active:
 
 for name, response in responses.items():
     print(name.title() + " would like to visit " + response.title() + ".")
+
+
+print(responses)
