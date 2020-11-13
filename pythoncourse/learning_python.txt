@@ -1,0 +1,3 @@
+i have learned about variables.
+i have learned about modules.
+i have learned about functions.
