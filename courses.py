@@ -1,17 +1,17 @@
 courses = ['History', 'Math', 'Physics', 'CompSci']
-courses2= ['Art', 'Education']
+courses2 = ['Art', 'Education']
 nums = [1, 5, 2, 4, 3]
 
 
-courses.append ('Art')
+courses.append('Art')
 
 courses.insert(0, 'Geo')
 
 courses.insert(0, courses2)
 
-print(courses[0:2]) # Prints from 0 to 1 but not including 2
+print(courses[0:2])  # Prints from 0 to 1 but not including 2
 
-print(courses[2:]) #assumes all the way to the end Also known a sclicing
+print(courses[2:])  # assumes all the way to the end Also known a sclicing
 
 courses.extend(courses2)
 print(courses)
@@ -21,14 +21,13 @@ courses.remove('Math')
 
 print(courses)
 
-popped = courses.pop() # removes last item in list
+popped = courses.pop()  # removes last item in list
 
 print(popped)
 
+#courses.reverse()
 
-courses.reverse()
-
-courses.sort()
+#courses.sort()
 
 print(courses)
 
@@ -43,7 +42,7 @@ nums.sort(reverse=True)
 print(nums)
 
 
-sorted_courses = sorted(courses) 
+sorted_courses = sorted(courses)
 print(sorted_courses)
 
 print(min(nums))
@@ -57,10 +56,10 @@ print('Math' in courses)
 
 
 for item in courses:
-	print(item)
+    print(item)
 
-for index, course in enumerate(courses , start=1):
-	print(index, course)
+for index, course in enumerate(courses, start=1):
+    print(index, course)
 
 courses = ['History', 'Math', 'Physics', 'CompSci']
 

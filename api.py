@@ -8,5 +8,6 @@ house2 = [house.append('Veranda')]
 
 print(house_2)
 
+print(house)
 
-
+# append Veranda to house_2 through house.

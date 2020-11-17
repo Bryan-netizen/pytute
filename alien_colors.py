@@ -29,5 +29,5 @@ elif alien_color == 'yellow':
 elif alien_color == 'red':
 	print ("\nplayer earned 15 points!") 
 
-
+# checks the variables and prints if variable matches the if statement.
 

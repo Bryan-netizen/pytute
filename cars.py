@@ -1,6 +1,8 @@
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 cars.sort()
 print(cars)
+# this alphabetically sorts list.
+
 
 cars.sort(reverse=True)
 print(cars)
@@ -13,6 +15,8 @@ print(cars)
 
 print("\nHere is the sorted list:")
 print(sorted(cars))
+
+# Past tense sorting when printing.
 
 print("\nHere is the original list again:")
 print(cars)
@@ -29,12 +33,11 @@ print(cars)
 print(len(cars))
 
 
-
 for car in cars:
-	if car == 'bmw':
-		print(car.upper())
-	else:
-		print(car.title())
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
 
 
 car = 'subaru'

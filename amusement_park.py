@@ -20,3 +20,4 @@ elif age >= 65:
 
 print("\nYour admission cost is $" + str(price) + ".")
 
+# Evalutes age and prints if , elif conditions.
