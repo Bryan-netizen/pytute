@@ -6,7 +6,8 @@ rand_course = rand.choice(courses)
 
 print(rand_course)
 print(rand_course)
-print(rand_course)
+print(rand_course * 2)
+
 
 
 import math
@@ -30,6 +31,6 @@ import os
 
 #print(os.__file_)
 
-import antigravity
+#import antigravity
 
 import numpy

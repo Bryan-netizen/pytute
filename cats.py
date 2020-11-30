@@ -10,5 +10,5 @@ try:
 except ValueError:
     print('You did not enter a number')
 
-# validtes input numCats against comparison  and prints statements,
+# validates input numCats against comparison  and prints statements,
 # except valueerror to make sure int is entered.
